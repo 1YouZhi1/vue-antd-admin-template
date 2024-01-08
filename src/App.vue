@@ -12,11 +12,18 @@ export default {
 
 <style>
 #app {
-  height: 100vh; /* 设置高度为视口的百分之百 */
+  height: 100vh;
+  /* 设置高度为视口的百分之百 */
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 </style>
